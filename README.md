@@ -11,9 +11,9 @@ Este repositorio contiene mi progreso y proyectos realizados durante el curso
 ## 📌 Información del curso
 
 - **Título:** React: De cero a experto - Edición 2025  
-- **Duración:** ~165 horas  
+- **Duración:** 46 horas de contenido (~165 horas estimadas con práctica)  
 - **Requisitos previos:** Conocimientos básicos de JavaScript y programación.  
-
+- **Enlace al curso:** [Ir al curso en Udemy](https://www.udemy.com/share/103dum3@o9ylUC7Uw98YoyxeUf85QucUpJS6VmHvFp0sDfz5VTyffQ0rZvR1ASvEfRJvpJc6_g==/)
 ### 🎯 Lo que aprenderé
 - Aprender **React a profundidad**  
 - Crear **aplicaciones reales**  
