@@ -5,7 +5,7 @@ export interface Heroo{
 }
 
 //type Owner = "DC"| "Marvel"; //basically is a enum like in Java
-enum Owner{
+export enum Owner{
   DC = 'DC', //0 by default without a assign value
   Marvel ='Marvel', //1
 }
