@@ -1,4 +1,4 @@
-interface Heroo{
+export interface Heroo{
     id: number;
     name: string;
     owner: Owner;
@@ -10,7 +10,7 @@ enum Owner{
   Marvel ='Marvel', //1
 }
 
-const heroes: Heroo[] = [
+export const heroes: Heroo[] = [
     {
       id: 1,
       name: 'Batman',
