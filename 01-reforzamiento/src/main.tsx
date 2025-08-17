@@ -12,6 +12,7 @@ import './index.css'
 import './bases/08-imp-exp.ts'
 import { getHeroesByOwner } from './bases/08-imp-exp.ts'
 import { Owner } from './data/heroes.data.ts'
+import './bases/09-promises.ts'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
