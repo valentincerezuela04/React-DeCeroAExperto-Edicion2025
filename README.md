@@ -35,7 +35,7 @@ Cada carpeta representa un proyecto/ejemplo desarrollado durante el curso:
 ## 🏆 Progreso
 
 - [x] Configuración inicial del repositorio  
-- [ ] Fundamentos de React  
+- [x] Fundamentos de React  
 - [ ] Hooks a profundidad  
 - [ ] Proyectos intermedios  
 - [ ] Pruebas unitarias y de integración  
