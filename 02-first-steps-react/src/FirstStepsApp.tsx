@@ -1,15 +1,13 @@
+import { ItemCounter } from "./shopping-cart/ItemCounter";
+
 export const FistStepsApp = () => {
   return (
     <>
-      <h1>Hello world</h1>
-      <p>this is text</p>
+      <h1>shopping cart</h1>
+      <ItemCounter name="Nintendo switch 2" quantity={1} />
+      <ItemCounter name="Super smash" quantity={2} />
+      <ItemCounter name="Mario Worlds" quantity={3} />
 
-      <button onClick={alert}>Click me</button>
-
-
-      <div>
-        <h2>i'm inside a div</h2>
-      </div>
     </>
   );
-}
+};
