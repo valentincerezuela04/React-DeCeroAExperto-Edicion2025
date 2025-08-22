@@ -32,7 +32,7 @@ interface Props {
 
 
 export const ItemCounter = ({ name, quantity }: Props) => {
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(quantity ?? 0);
 
     const handleAdd = () => {
         setCount(count + 1);
