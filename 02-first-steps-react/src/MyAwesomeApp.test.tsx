@@ -20,5 +20,22 @@ describe('MyAwesomeApp', () => {
     expect(h1.innerHTML).toContain('valentin');
 
 
+
   });
+
+  test('should match snapshot', () => {
+    const { container } = render(<MyAwesomeApp />);
+    expect(container).toMatchSnapshot();
+  });
+
+  test('should match snapshot div', () => {
+    expect(render(<MyAwesomeApp />)).toMatchSnapshot(); // can we pass directly render without use destructuration
+  });
+
+  test('should match snapshot div v2', () => {
+    render(<MyAwesomeApp />);
+    expect(screen.getByTestId('test-div')).toMatchSnapshot();
+  });
+
+
 });

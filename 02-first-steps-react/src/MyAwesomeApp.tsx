@@ -22,15 +22,18 @@ const myStyles: CSSProperties = { //why CSSProperties ?? without this property w
 export const MyAwesomeApp = () => {
     return (
         <>
-            <h1 data-testid="first-name-title">{firstName}</h1>
-            <h2>{lastName}</h2>
-            <p>{favoriteGmaes.join(' ,')}</p>
-            <p>{2 + 2}</p>
-            <h1>{isActive ? 'active' : 'Not active'}</h1>
+            <div data-testid="test-div">
+                <h1 data-testid="first-name-title">{firstName}</h1>
+                <h2>{lastName}</h2>
+                <p>{favoriteGmaes.join(' ,')}</p>
+                <p>{2 + 2}</p>
+                <h1>{isActive ? 'active' : 'Not active'}</h1>
 
-            <p style={myStyles}
-            >
-                {JSON.stringify(address)}</p>
+                <p style={myStyles}>
+                    {JSON.stringify(address)}</p>
+                <p>Hoal com o es que e</p>
+
+            </div>
         </>
     );
 };
