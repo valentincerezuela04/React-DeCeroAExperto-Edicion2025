@@ -5,6 +5,8 @@ import { SearchBar } from './shared/components/SearchBar'
 import { PreviousSearches } from './gifs/previousSearches'
 import { GifsList } from './gifs/GifsList'
 export const GifsApp = () => {
+
+
     return (
         <>
             {/* Header */}
@@ -13,7 +15,7 @@ export const GifsApp = () => {
             {/* search */}
             <SearchBar placeholder='Search gifs' />
 
-            <PreviousSearches />
+            <PreviousSearches searches={['goku', 'vegeta', 'kakashi']} />
 
             <GifsList gifs={mockGifs} />
 
